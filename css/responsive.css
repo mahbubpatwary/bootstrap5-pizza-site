@@ -1,0 +1,160 @@
+
+
+
+/* variable Defined  */
+:root{
+    --primary-color :  #ffc222;
+    --secondary-color : #00a149;
+    --white-color : #fff;
+    --text-color : #b0b0b0;
+    --black-color : #1e1d23;
+    --primary-font :  'Roboto', sans-serif;
+    --secondary-font : 'Quicksand', sans-serif;
+
+
+}
+
+
+
+
+
+/* for labtop screen  */
+
+@media (max-width: 1030px) {
+    
+
+
+
+
+
+}
+
+
+
+
+/* for tab screen  */
+
+@media (max-width: 992px) {
+    
+
+    .text-content{
+        width: 100%;
+
+    }
+
+
+    .navigation-wrap .navbar-brand img{
+        height: 3.3rem;
+
+    }
+
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    
+
+    .navigation-wrap .nav-link{
+        line-height: 1.8rem;
+        color: var(--black-color);
+
+    }
+
+    /* banner design  */
+
+    .top-banner{
+        padding: 9.3rem 0 9.3rem;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* for medium screen  */
+
+@media (max-width: 767px) {
+
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+
+
+
+    /* top-banner  */
+    .top-banner{
+        padding: 10rem 0 9.3rem;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* for mobile screen  */
+
+@media (max-widht: 360px) {
+    
+
+    .testimonial-section .carousel-item{
+        padding: 13rem 3rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
